@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import AppointmentForm from './components/AppointmentForm';
-import AppointmentList from './components/AppointmentList';
+import AppointmentList from './components/appointmentList';
 import { getAppointments } from './api';
 
 export default function App() {
