@@ -1,4 +1,4 @@
-const API_URL = `/api/appointments`;
+const API_URL = `https://appointment-booking-app-psi.vercel.app/api/appointments`;
 
 export const createAppointment = async (data) => {
   const response = await fetch(API_URL, {
