@@ -1,4 +1,4 @@
-const API_URL = `${import.meta.VITE_BASE_URL}/api/appointments`;
+const API_URL = `/api/appointments`;
 
 export const createAppointment = async (data) => {
   const response = await fetch(API_URL, {
